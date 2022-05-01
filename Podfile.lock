@@ -1,0 +1,24 @@
+PODS:
+  - LibWally (0.0.1)
+
+DEPENDENCIES:
+  - LibWally (from `https://github.com/jurvis/libwally-swift.git`, branch `jurvis/build-from-xcode`)
+
+EXTERNAL SOURCES:
+  LibWally:
+    :branch: jurvis/build-from-xcode
+    :git: https://github.com/jurvis/libwally-swift.git
+    :submodules: true
+
+CHECKOUT OPTIONS:
+  LibWally:
+    :commit: f5001e5e236924b45ca70cb1365c6747b89a0dd4
+    :git: https://github.com/jurvis/libwally-swift.git
+    :submodules: true
+
+SPEC CHECKSUMS:
+  LibWally: ce1e98813b64aa26b4cc3a92d3c7f57db97b2fb2
+
+PODFILE CHECKSUM: c610a0731fcc41f2f5d970a388463f925578963b
+
+COCOAPODS: 1.11.3

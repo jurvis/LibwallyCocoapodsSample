@@ -6,11 +6,20 @@
 //
 
 import SwiftUI
+import LibWally
 
 struct ContentView: View {
+    let mnemonic = BIP39Mnemonic("abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon about")
+    var mnemonicCount: Int {
+        return mnemonic!.words.count
+    }
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("Mnemonic: \(mnemonic!.description)")
+                .padding()
+            Text("Count: \(mnemonicCount)")
+        }
     }
 }
 
