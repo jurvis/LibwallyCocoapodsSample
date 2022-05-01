@@ -2,23 +2,23 @@ PODS:
   - LibWally (0.0.1)
 
 DEPENDENCIES:
-  - LibWally (from `https://github.com/jurvis/libwally-swift.git`, branch `jurvis/build-from-xcode`)
+  - LibWally (from `https://github.com/jurvis/libwally-swift.git`, branch `jurvis/cleanup-build-script-2`)
 
 EXTERNAL SOURCES:
   LibWally:
-    :branch: jurvis/build-from-xcode
+    :branch: jurvis/cleanup-build-script-2
     :git: https://github.com/jurvis/libwally-swift.git
     :submodules: true
 
 CHECKOUT OPTIONS:
   LibWally:
-    :commit: f5001e5e236924b45ca70cb1365c6747b89a0dd4
+    :commit: c6536263a92189b69d028b9ffe0737cc579fae00
     :git: https://github.com/jurvis/libwally-swift.git
     :submodules: true
 
 SPEC CHECKSUMS:
   LibWally: ce1e98813b64aa26b4cc3a92d3c7f57db97b2fb2
 
-PODFILE CHECKSUM: c610a0731fcc41f2f5d970a388463f925578963b
+PODFILE CHECKSUM: 4c0cab483d4fa357013f7585a1641f832a162d92
 
 COCOAPODS: 1.11.3

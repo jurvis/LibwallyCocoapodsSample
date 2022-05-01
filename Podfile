@@ -6,7 +6,7 @@ target 'LibWallyCocoapodsSample' do
   use_frameworks!
 
   # Pods for LibWallyCocoapodsSample
-  pod 'LibWally', :git => "https://github.com/jurvis/libwally-swift.git", :branch => "jurvis/build-from-xcode", :submodules => true
+  pod 'LibWally', :git => "https://github.com/jurvis/libwally-swift.git", :branch => "jurvis/cleanup-build-script-2", :submodules => true
 
   target 'LibWallyCocoapodsSampleTests' do
     inherit! :search_paths
